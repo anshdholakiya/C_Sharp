@@ -4,14 +4,14 @@ public class Class1
 {
 	public static void Main(string[] args)
 	{
-		int[] a = { 1, 2, 2, 2, 1, 1, 2, 3 };
+		int[] a = { 1, 2, 2, 2, 1, 1, 2, 3 , 32,32
 
 		bool[] b = new bool[a.Length];
 
 		
 		for(int i = 0; i < a.Length; i++)
 		{
-		sif (b[i] == true)
+		if (b[i] == true)
 				continue;
 
 			int cnt = 1;
